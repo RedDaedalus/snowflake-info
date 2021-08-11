@@ -1,0 +1,7 @@
+{
+    "name": "Snowflake Info",
+    "description": "Show information on snowflakes, including guilds, users, and chnanels. Modified from webtax#9393's user info plugin.",
+    "author": "Daedalus#0001",
+    "version": "1.2.0",
+    "license": "MIT"
+  }
