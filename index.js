@@ -7,8 +7,9 @@ const { respond, error } = require("./messages");
 module.exports = class extends Plugin {
     startPlugin() {
         powercord.api.commands.registerCommand({
-            command: "info",
-            label: "Shows information fetched from a snowflake",
+            command: "lookup",
+            aliases: ["info", "user", "snowflake"],
+            label: "Lookup Snowflake",
             usage: "{c} snowflake|user <id>",
             description: "Show information on a snowflake",
             executor: this.executeCommand,
@@ -40,6 +41,6 @@ module.exports = class extends Plugin {
     }
 
     pluginWillUnload() {
-        powercord.api.commands.unregisterCommand("info");
+        powercord.api.commands.unregisterCommand("lookup");
     }
 }

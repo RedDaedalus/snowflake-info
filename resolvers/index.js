@@ -1,4 +1,5 @@
 module.exports = {
+    user: require("./user"),
     snowflake: require("./snowflake"),
-    user: require("./user")
+    guild: require("./guild")
 }
