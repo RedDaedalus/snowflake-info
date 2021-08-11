@@ -4,10 +4,10 @@ Snowflake Info is a [Powercord](https://powercord.dev) plugin used to fetch info
 
 ## Installation
 Run the installation command for your operating system in the terminal and the plugin will be installed! You may have to reload Discord for the installation to complete.
-| Operating System    | Command                                                                                        |
-| ------------------- | ---------------------------------------------------------------------------------------------- |
-| Unix (macos, linux) | cd powercord/src/Powercord/plugins && git clone git@github.com:/RedDaedalus/snowflake-info.git |
-| Windows             | cd powercord\src\Powercord\plugins && git clone git@github.com:/RedDaedalus/snowflake-info.git |
+| Operating System    | Command                                                                                          |
+| ------------------- | -----------------------------------------------------------------------------------------------  |
+| Unix (macos, linux) | `cd powercord/src/Powercord/plugins && git clone git@github.com:/RedDaedalus/snowflake-info.git` |
+| Windows             | `cd powercord\src\Powercord\plugins && git clone git@github.com:/RedDaedalus/snowflake-info.git` |
 
 ## Examples
 <img alt="user info" src="https://user-images.githubusercontent.com/16168171/129113767-17d8165e-0674-4d0a-9dd8-7f4496716db9.mov">
